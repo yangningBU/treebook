@@ -1,3 +1,47 @@
 // Place all the styles related to the statuses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-color:rgb(233, 234, 237);
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+
+	.container{
+		width: 800px;
+		margin: 0 auto;
+	}
+	
+	.title-bar{
+		background-color: rgb(59, 89, 152);
+		height: 82px;
+		color: white;
+
+		h1{
+			font-size: 40px;
+			padding-left: 50px;
+			padding-top: 30px;
+		}
+	}
+	
+	.panel{
+		width: auto;
+		box-shadow: rgba(0, 0, 0, 0.14902) 0px 0px 10px 1px;
+		border: 1px solid;
+		border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+		border-radius: 3px;
+		background-color:white;
+		padding: 5px;
+		margin: 10px;
+
+		table{
+			color:#3b5998;
+			border-collapse:collapse;
+			
+			td{
+				padding:5px;
+			}
+		}
+
+	}
+
+}
