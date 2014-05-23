@@ -3,12 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body{
-	background-color:rgb(233, 234, 237);
+	background-color: #fafafa;
 	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
 
-	.container{
+	.content{
 		width: 800px;
 		margin: 0 auto;
+		margin-top: 80px;
 	}
 	
 	.title-bar{
@@ -22,7 +23,7 @@ body{
 			padding-top: 30px;
 		}
 	}
-	
+
 	.panel{
 		width: auto;
 		box-shadow: rgba(0, 0, 0, 0.14902) 0px 0px 10px 1px;
@@ -44,4 +45,34 @@ body{
 
 	}
 
+	#newsfeed{
+		width:60%;
+	}
+
+	.page-header{
+		margin: 0;
+		padding: 2px;
+	}
+
+	.brand{
+	}
+
+	.status{
+		border-bottom: solid 1px #CCC;
+		padding: 5px 0;
+
+		p{
+			margin: 4px 0;
+		}
+	}
+
+	.status.hover{
+		background-color: rgba(252,245,218,1);
+	}
+	.status .admin{
+		display: none;
+	}
+	.status.hover .admin{
+		display: inline;
+	}
 }
